@@ -27,7 +27,7 @@
         /*--------------------------------------------------------------
         radix GALLERY POPUP JS
         ------------------------------------------------------------*/
-        var radix_img_popup = $('.radix_zoom_gallery');
+        var radix_img_popup = $('.radix_zoom_gallery.lightbox');
         if (radix_img_popup.is_exist()) {
             $(radix_img_popup).magnificPopup({
                 type: 'image',
