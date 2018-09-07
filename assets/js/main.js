@@ -28,28 +28,28 @@
         /*--------------------------------------------------------------
         radix GALLERY POPUP JS
         ------------------------------------------------------------*/
-        var radix_img_popup = $('.radix_zoom_gallery');
-        if (radix_img_popup.is_exist()) {
-            $(radix_img_popup).magnificPopup({
-                type: 'image',
-                closeOnContentClick: false,
-                closeBtnInside: false,
-                mainClass: 'mfp-with-zoom mfp-img-mobile',
-                image: {
-                    verticalFit: true,
-                },
-                gallery: {
-                    enabled: true
-                },
-                zoom: {
-                    enabled: true,
-                    duration: 300, // don't foget to change the duration also in CSS
-                    opener: function (element) {
-                        return element.find('img');
-                    }
-                }
-            });
-        }
+//        var radix_img_popup = $('.radix_zoom_gallery');
+//        if (radix_img_popup.is_exist()) {
+//            $(radix_img_popup).magnificPopup({
+//                type: 'image',
+//                closeOnContentClick: false,
+//                closeBtnInside: false,
+//                mainClass: 'mfp-with-zoom mfp-img-mobile',
+//                image: {
+//                    verticalFit: true,
+//                },
+//                gallery: {
+//                    enabled: true
+//                },
+//                zoom: {
+//                    enabled: true,
+//                    duration: 300, // don't foget to change the duration also in CSS
+//                    opener: function (element) {
+//                        return element.find('img');
+//                    }
+//                }
+//            });
+//        }
 
         /*--------------------------------------------------------------
         RADIX RESPONSIVE MENU
