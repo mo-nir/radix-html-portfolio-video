@@ -52,7 +52,11 @@
         /*--------------------------------------------------------------
         RADIX MODAL VIDEO
         ------------------------------------------------------------*/
-        $(".js-modal-btn").modalVideo({channel:'vimeo'});
+        //for youtube
+        $(".js-modal-btn.youtube-btn").modalVideo();
+        
+        //for vimeo
+        $(".js-modal-btn.vimeo-btn").modalVideo({channel:'vimeo'});
         /*--------------------------------------------------------------
         RADIX RESPONSIVE MENU
         ------------------------------------------------------------*/
